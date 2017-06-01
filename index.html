@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Trang chủ</title>
+
+	<link rel="stylesheet" type="text/css" href="./public/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="public/css/bootstrap-theme.min.css">
+	<!-- Custom css -->
+	<link rel="stylesheet" type="text/css" href="public/css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="public\css\search-bar.css">
+	<link rel="stylesheet" href="./public/css/footer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<!-- Navication bar -->
+	<nav class="navbar navbar-default navbar-static-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- Logo of website here -->
+				<a class="navbar-brand" href="#">
+					BOP Team
+				</a>
+			</div>
+			<!--Right side on navication bar-->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<!-- Some option -->
+				<ul class="nav navbar-nav">
+	                <li><a href="information.html">Home</a></li>
+	                <li><a href="#about">About</a></li>
+	                <li><a href="#contact">Contact US</a></li>
+	                <li><a href="signup.html">Register</a></li>
+	            </ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="signin.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="carousel-id" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+			<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+			<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item">
+				<img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="./public/img/carousel/slide-1.png">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>Example headline.</h1>
+						<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+						<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="./public/img/carousel/slide-2.png">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>Another example headline.</h1>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="item active">
+				<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="./public/img/carousel/slide-3.png">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>One more for good measure.</h1>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+						<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+		<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	</div>
+
+	<!-- Search Bar -->
+	<div id="flipkart-navbar">
+		<div class="container">
+				<div class="row row-search">
+					<form class="col-md-12">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search">
+							<div class="input-group-btn">
+								<button class="btn btn-default" type="submit">
+									<i class="glyphicon glyphicon-search"></i>
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+		</div>
+	</div>
+
+	<div class="container"  style="margin-top: 24px;">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Product Type
+					</div>
+					<div class="list-group">
+						<a href="#" class="list-group-item">Mobile Phone</a>
+						<a href="#" class="list-group-item">Personal Conputer</a>
+						<a href="#" class="list-group-item">Vehicle</a>
+						<a href="#" class="list-group-item">Watches</a>
+						<a href="#" class="list-group-item">Electronics</a>
+						<a href="#" class="list-group-item">Home Goods</a>
+						<a href="#" class="list-group-item">Travel</a>
+						<a href="#" class="list-group-item">Kitchen</a>
+						<a href="#" class="list-group-item">Sports</a>
+						<a href="#" class="list-group-item">Fashion</a>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						Time
+					</div>
+					<div class="list-group">
+						<a href="#" class="list-group-item">Bet the most</a>
+						<a href="#" class="list-group-item">Most of the time</a>
+						<a href="#" class="list-group-item">New</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">
+						List of products being auctioned
+						</h3>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<img src="./public/img/pc/img-pc-02.jpg" alt="PC">
+									<div class="caption">
+										<h3>Dell Inspiron</h3>
+										<h4>Price: 400$</h4>
+										<p>
+											<a href="#" class="btn btn-primary" role="button">Bid Now</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<img src="./public/img/pc/img-pc-02.jpg" alt="PC">
+									<div class="caption">
+										<h3>Dell Vostro</h3>
+										<h4>Price: 500$</h4>
+										<p>
+											<a href="#" class="btn btn-primary" role="button">Bid Now</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<img src="./public/img/pc/img-pc-02.jpg" alt="PC">
+									<div class="caption">
+										<h3>Dell Vostro</h3>
+										<h4>Price: 500$</h4>
+										<p>
+											<a href="#" class="btn btn-primary" role="button">Bid Now</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<img src="./public/img/pc/img-pc-02.jpg" alt="PC">
+									<div class="caption">
+										<h3>Dell Vostro</h3>
+										<h4>Price: 500$</h4>
+										<p>
+											<a href="#" class="btn btn-primary" role="button">Bid Now</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<img src="./public/img/pc/img-pc-02.jpg" alt="PC">
+									<div class="caption">
+										<h3>Dell Vostro</h3>
+										<h4>Price: 500$</h4>
+										<p>
+											<a href="#" class="btn btn-primary" role="button">Bid Now</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<img src="./public/img/pc/img-pc-02.jpg" alt="PC">
+									<div class="caption">
+										<h3>Dell Vostro</h3>
+										<h4>Price: 500$</h4>
+										<p>
+											<a href="#" class="btn btn-primary" role="button">Bid Now</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<img src="./public/img/pc/img-pc-02.jpg" alt="PC">
+									<div class="caption">
+										<h3>Dell Vostro</h3>
+										<h4>Price: 500$</h4>
+										<p>
+											<a href="#" class="btn btn-primary" role="button">Bid Now</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="thumbnail">
+									<img src="./public/img/pc/img-pc-02.jpg" alt="PC">
+									<div class="caption">
+										<h3>Dell Vostro</h3>
+										<h4>Price: 500$</h4>
+										<p>
+											<a href="#" class="btn btn-primary" role="button">Bid Now</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer-distributed">
+		<div class="footer-left">
+			<h3>BOP<span>Team</span></h3>
+			<p class="footer-links">
+				<a href="#">Home</a>
+				<a href="#">Blog</a>
+				<a href="#">Pricing</a>
+				<a href="#">About</a>
+				<a href="#">Faq</a>
+				<a href="#">Contact</a>
+			</p>
+			<p class="footer-company-name">Bop Team &copy; 2017</p>
+		</div>
+
+		<div class="footer-center">
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>69 Anonymous Street</span> Hanoi, Vietnam</p>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+84 12 345 6789</p>
+			</div>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="mailto:support@company.com">mail@bopteam.vn</a></p>
+			</div>
+		</div>
+		<div class="footer-right">
+			<p class="footer-company-about">
+				<span>About Us</span>
+				Hello, world! We are Bop Team.
+			</p>
+			<div class="footer-icons">
+				<a href="#facebook"><i class="fa fa-facebook"></i></a>
+				<a href="#twitter"><i class="fa fa-twitter"></i></a>
+				<a href="#google-plus"><i class="fa fa-google-plus"></i></a>
+				<a href="#github"><i class="fa fa-github"></i></a>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script type="text/javascript" src="./public/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="public\js\search-bar.js"></script>
+	<script type="text/javascript" src="./public/js/bootstrap.min.js"></script>
+</body>
+</html>
