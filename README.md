@@ -1,10 +1,10 @@
-# Project - *Name of your app*
+# Project - *Auction website*
 
-**Name of your app** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.
+**Auction website** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.
 
 Thành viên:
 * [x] **1412689** - Hoàng Thị Bích Vân - 1412689 - hoangthibichvan95@gmail.com - Tỉ lệ đóng góp cho đề tài
-* [ ] **MSSV2** - Tên sinh viên 2 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
+* [x] **MSSV2** - Nguyễn Quốc Anh Tú - nqatu - ngqanhtu@outlook.com - Tỉ lệ đóng góp cho đề tài
 * [ ] **MSSV3** - Tên sinh viên 3 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
 * [ ] **MSSV4** - Tên sinh viên 4 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
 
