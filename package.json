@@ -1,0 +1,35 @@
+{
+  "name": "bop-team",
+  "version": "1.0.0",
+  "description": "**Name of your app** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UDPT-2017/project-bop.git"
+  },
+  "author": "Bich Van va Nguyen Tu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UDPT-2017/project-bop/issues"
+  },
+  "homepage": "https://github.com/UDPT-2017/project-bop#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.3",
+    "handlebars": "^4.0.10",
+    "moment": "^2.18.1",
+    "morgan": "^1.8.2",
+    "nodemailer": "^4.0.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pg": "^6.2.3"
+  }
+}
