@@ -9,7 +9,11 @@ Thành viên:
 =======
 * [x] **1412689** - Hoàng Thị Bích Vân - 1412689 - hoangthibichvan95@gmail.com - 50%
 * [ ] **MSSV2** - Tên sinh viên 2 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
+<<<<<<< HEAD
 >>>>>>> feature/LayOutMVC
+=======
+>>>>>>> 8bdd802a32980b718bdddba5e3e43779a86ae800
+>>>>>>> feature/LapTrinhDuLieu
 * [ ] **MSSV3** - Tên sinh viên 3 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
 * [ ] **MSSV4** - Tên sinh viên 4 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
 
