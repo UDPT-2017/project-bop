@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tuleminh396/auction-web.git"
+    "url": "git+https://github.com/UDPT-2017/project-bop.git"
   },
   "keywords": [
     "auction"
@@ -17,9 +17,9 @@
   "author": "BOP Team",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tuleminh396/auction-web/issues"
+    "url": "https://github.com/UDPT-2017/project-bop/issues"
   },
-  "homepage": "https://github.com/tuleminh396/auction-web#readme",
+  "homepage": "https://github.com/UDPT-2017/project-bop#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
     "connect-flash": "^0.1.1",
