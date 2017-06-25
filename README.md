@@ -3,19 +3,9 @@
 **Auction website** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.
 
 Thành viên:
-<<<<<<< HEAD
-* [x] **1412689** - Hoàng Thị Bích Vân - 1412689 - hoangthibichvan95@gmail.com - Tỉ lệ đóng góp cho đề tài
-* [x] **MSSV2** - Nguyễn Quốc Anh Tú - nqatu - ngqanhtu@outlook.com - Tỉ lệ đóng góp cho đề tài
-=======
 * [x] **1412689** - Hoàng Thị Bích Vân - 1412689 - hoangthibichvan95@gmail.com - 50%
-* [ ] **MSSV2** - Tên sinh viên 2 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
-<<<<<<< HEAD
->>>>>>> feature/LayOutMVC
-=======
->>>>>>> 8bdd802a32980b718bdddba5e3e43779a86ae800
->>>>>>> feature/LapTrinhDuLieu
-* [ ] **MSSV3** - Tên sinh viên 3 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
-* [ ] **MSSV4** - Tên sinh viên 4 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
+* [x] **1412624** - Nguyễn Quốc Anh Tú - nqatu - ngqanhtu@outlook.com - 50%
+
 
 URL: **http://project-auction.azurewebsites.net**
 Báo cáo: **URL Github Page của đề tài**
@@ -41,10 +31,10 @@ Phần mô tả đặt vào đây
 * [x] Layout & partial (1412689)
 
 ### Lập trình dữ liệu
-* [ ] Thêm (MSSV1)
-* [ ] Xóa (MSSV1)
-* [ ] Sửa (MSSV1)
-* [ ] Tìm kiếm (MSSV1)
+* [x] Thêm (1412624)
+* [x] Xóa (1412624)
+* [x] Sửa (1412624)
+* [x] Tìm kiếm (1412624)
 
 ### Xử lý lỗi
 * [x] Xử lý lỗi trong cùng trang web (1412689)
@@ -60,17 +50,17 @@ Liệt kê các API nhóm đã sử dụng được ở đây
 * [x] ...
 
 ## Lập trình client
-* [ ] Kiểm tra dữ liệu (MSSV1)
-* [ ] Animation (MSSV1)
-* [ ] Thao tác DOM (MSSV1)
-* [ ] AJAX (MSSV1)
+* [x] Kiểm tra dữ liệu (1412624)
+* [x] Animation (1412624)
+* [x] Thao tác DOM (1412624)
+* [x] AJAX (1412624)
 
 ## Bảo mật
-* [ ] Chứng thực (MSSV1)
-* [ ] Phân quyền sử dụng một số trang web với nhiều vai trò khác nhau (MSSV1)
-   * [ ] Không cho phép thao tác vào trang web khi không có quyền (MSSV1)
-   * [ ] Thể hiện các chức năng khác nhau trên cùng giao diện khi người dùng có quyền khác nhau (MSSV1)
-   * [ ] Thể hiện lỗi khi không truy xuất được trang khi không có quyền (MSSV1)
+* [x] Chứng thực (MSSV1)
+* [x] Phân quyền sử dụng một số trang web với nhiều vai trò khác nhau (1412624)
+   * [x] Không cho phép thao tác vào trang web khi không có quyền (1412624)
+   * [x] Thể hiện các chức năng khác nhau trên cùng giao diện khi người dùng có quyền khác nhau (1412624)
+   * [x] Thể hiện lỗi khi không truy xuất được trang khi không có quyền (1412624)
 
 ## Nâng cao
 * [ ] ...
