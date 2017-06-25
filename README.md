@@ -78,7 +78,7 @@ Link ảnh GIF demo ứng dụng:
 ![Video Walkthrough](https://www.youtube.com/playlist?list=PLfV0mu6aYtJd-_TBhI-M4oPWX7hH7uZ3g)
 
 Tạo ảnh GIF với chương trình [LiceCap](http://www.cockos.com/licecap/).
-
+[Linkname](https://www.youtube.com/playlist?list=PLfV0mu6aYtJd-_TBhI-M4oPWX7hH7uZ3g)
 
 ## License
 
