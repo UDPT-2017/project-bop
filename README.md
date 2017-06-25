@@ -1,14 +1,23 @@
-# Project - *Name of your app*
+# Project - *Auction website*
 
-**Name of your app** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.
+**Auction website** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.
 
 Thành viên:
+<<<<<<< HEAD
 * [x] **1412689** - Hoàng Thị Bích Vân - 1412689 - hoangthibichvan95@gmail.com - Tỉ lệ đóng góp cho đề tài
+* [x] **MSSV2** - Nguyễn Quốc Anh Tú - nqatu - ngqanhtu@outlook.com - Tỉ lệ đóng góp cho đề tài
+=======
+* [x] **1412689** - Hoàng Thị Bích Vân - 1412689 - hoangthibichvan95@gmail.com - 50%
 * [ ] **MSSV2** - Tên sinh viên 2 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
+<<<<<<< HEAD
+>>>>>>> feature/LayOutMVC
+=======
+>>>>>>> 8bdd802a32980b718bdddba5e3e43779a86ae800
+>>>>>>> feature/LapTrinhDuLieu
 * [ ] **MSSV3** - Tên sinh viên 3 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
 * [ ] **MSSV4** - Tên sinh viên 4 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
 
-URL: **URL hosting của đề tài**
+URL: **http://project-auction.azurewebsites.net**
 Báo cáo: **URL Github Page của đề tài**
 
 ## Yêu cầu
@@ -16,20 +25,20 @@ Báo cáo: **URL Github Page của đề tài**
 Trong đề tài, sinh viên cần mô tả các chức năng có thể thực hiện bên dưới. Sinh viên check vào các mục bên dưới và ghi mã sinh viên đã làm vào chức năng theo mẫu. Mục nào ko có MSSV là tính điểm theo nhóm. Cần sắp xếp các chức năng bên dưới theo thứ tự MSSV đã thực hiện.
 
 Làm việc nhóm:
-* [ ] Có sử dụng GIT.
+* [x] Có sử dụng GIT.
 * [ ] Sử dụng GIT theo Centralized Workflow.
 * [ ] Sử dụng GIT theo Feature Branch Workflow.
-* [ ] Sử dụng GIT theo Gitflow Workflow.
+* [x] Sử dụng GIT theo Gitflow Workflow.
 
 ## Mô tả nghiệp vụ chung ứng dụng
 Phần mô tả đặt vào đây
 
 ## Lập trình server
 ### MVC
-* [ ] MVC (MSSV1)
-* [ ] Config (MSSV1)
-* [ ] REST routing (MSSV1)
-* [ ] Layout & partial (MSSV1)
+* [x] MVC (1412689)
+* [x] Config (1412689)
+* [x] REST routing (1412689)
+* [x] Layout & partial (1412689)
 
 ### Lập trình dữ liệu
 * [ ] Thêm (MSSV1)
@@ -38,17 +47,17 @@ Phần mô tả đặt vào đây
 * [ ] Tìm kiếm (MSSV1)
 
 ### Xử lý lỗi
-* [ ] Xử lý lỗi trong cùng trang web (MSSV1)
-* [ ] Xử lý lỗi dùng trang web riêng (MSSV1)
-   * [ ] 401 (MSSV1)
-   * [ ] 404 (MSSV1)
-   * [ ] 500 (MSSV1)
+* [x] Xử lý lỗi trong cùng trang web (1412689)
+* [x] Xử lý lỗi dùng trang web riêng (1412689)
+   * [x] 401 (1412689)
+   * [x] 404 (1412689)
+   * [x] 500 (1412689)
 
 ### Tương tác API khác
 Liệt kê các API nhóm đã sử dụng được ở đây
-* [ ] Facebook API: mô tả (MSSV1)
-* [ ] Google API: mô tả (MSSV1)
-* [ ] ...
+* [x] Facebook API: mô tả (1412689)
+* [x] Google API: mô tả (1412689)
+* [x] ...
 
 ## Lập trình client
 * [ ] Kiểm tra dữ liệu (MSSV1)
@@ -73,11 +82,10 @@ Các **yêu cầu chức năng** (check và ghi MSSV vào các phần chức nă
 
 ## Demo
 
-Link ảnh GIF demo ứng dụng:
+Link ảnh video demo ứng dụng:
 
-![Video Walkthrough](demo.gif)
+https://www.youtube.com/playlist?list=PLfV0mu6aYtJd-_TBhI-M4oPWX7hH7uZ3g
 
-Tạo ảnh GIF với chương trình [LiceCap](http://www.cockos.com/licecap/).
 
 
 ## License

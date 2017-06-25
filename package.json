@@ -1,0 +1,40 @@
+{
+  "name": "auction-web",
+  "version": "1.0.0",
+  "description": "A simple auction website based on node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UDPT-2017/project-bop.git"
+  },
+  "keywords": [
+    "auction"
+  ],
+  "author": "BOP Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UDPT-2017/project-bop/issues"
+  },
+  "homepage": "https://github.com/UDPT-2017/project-bop#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "crypto": "0.0.3",
+    "dateformat": "^2.0.0",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "express-handlebars-sections": "^1.0.1",
+    "express-session": "^1.15.3",
+    "mustache": "^2.3.0",
+    "mysql": "^2.13.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "q": "^1.5.0",
+    "wnumb": "^1.1.0"
+  }
+}
