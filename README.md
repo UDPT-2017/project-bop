@@ -75,7 +75,7 @@ Các **yêu cầu chức năng** (check và ghi MSSV vào các phần chức nă
 
 Link ảnh GIF demo ứng dụng:
 
-![Video Walkthrough](demo.gif)
+![Video Walkthrough](https://www.youtube.com/playlist?list=PLfV0mu6aYtJd-_TBhI-M4oPWX7hH7uZ3g)
 
 Tạo ảnh GIF với chương trình [LiceCap](http://www.cockos.com/licecap/).
 
