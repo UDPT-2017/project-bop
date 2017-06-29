@@ -8,7 +8,7 @@ Thành viên:
 
 
 URL: **http://project-auction.azurewebsites.net**
-Báo cáo: **https://1412689.github.io/bopteam.github.io/**
+Báo cáo: ****
 
 ## Yêu cầu
 
