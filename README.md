@@ -8,7 +8,7 @@ Thành viên:
 
 
 URL: **http://project-auction.azurewebsites.net**
-Báo cáo: ****
+Báo cáo: **https://udpt-2017.github.io/project-bop/**
 
 ## Yêu cầu
 
@@ -62,25 +62,23 @@ Liệt kê các API nhóm đã sử dụng được ở đây
    * [x] Thể hiện các chức năng khác nhau trên cùng giao diện khi người dùng có quyền khác nhau (1412624)
    * [x] Thể hiện lỗi khi không truy xuất được trang khi không có quyền (1412624)
 
-## Nâng cao
-* [ ] ...
 
 ## Chức năng đã thực hiện
 Các **yêu cầu chức năng** (check và ghi MSSV vào các phần chức năng đã thực hiện)
 
-# 1. Phân hệ người dùng anonymous
-## Trang chủ
-- Top 4 sản phẩm có nhiều lượt ra giá nhất (sắp xếp theo số lượt giảm dần)
-- Top 4 sản phẩm chưa kết thúc có giá cao nhất
-- Top 4 sản phẩm gần kết thúc(sắp xếp theo thời gian kết thúc giảm dần)
+# 1. Phân hệ người dùng anonymous (1412624)
+## Trang chủ (1412624)
+- Top 4 sản phẩm có nhiều lượt ra giá nhất (sắp xếp theo số lượt giảm dần) (1412624)
+- Top 4 sản phẩm chưa kết thúc có giá cao nhất (1412624)
+- Top 4 sản phẩm gần kết thúc(sắp xếp theo thời gian kết thúc giảm dần) (1412624)
 ## Hệ thống Menu
-- Hiển thị danh sách loại sản phẩm
+- Hiển thị danh sách loại sản phẩm (1412624)
 ## Tìm kiếm sản phẩm
-- Cho phép tìm kiếm theo nhiều tiêu chí: tên, loại, ... 
-- Hỗ trợ phân trang truyền thống
-- Hỗ trợ sắp xếp lại kết quả tìm kiếm (thời gian kết thúc giảm, giá tăng, ...) 
-- Những sản phẩm mới đăng trong N phút có thể hiện khác -0.25
-- Đầy đủ thông tin: tên, hình ảnh, giá hiện tại, người giữ giá (có mã hoá, vd nndkhoa sẽ được thể hiện dạng n*d*h*a), thời gian còn lại, số lượt ra giá hiện có
+- Cho phép tìm kiếm theo nhiều tiêu chí: tên, loại, ... (Chưa hoàn thành)
+- Hỗ trợ phân trang truyền thống (1412624)
+- Hỗ trợ sắp xếp lại kết quả tìm kiếm (thời gian kết thúc giảm, giá tăng, ...) (1412624)
+- Những sản phẩm mới đăng trong N phút có thể hiện khác (1412624)
+- Đầy đủ thông tin: tên, hình ảnh, giá hiện tại, người giữ giá (có mã hoá, vd nndkhoa sẽ được thể hiện dạng n\*d\*h\*a\*), thời gian còn lại, số lượt ra giá hiện có (1412624)
 ## Xem chi tiết sản phẩm 
 - Hiển thị nhiều ảnh (tối thiểu là 3 ảnh) 
 - Ảnh sản phẩm thể hiện dạng slideshow, có hiệu ứng chuyển ảnh 
@@ -94,34 +92,34 @@ Các **yêu cầu chức năng** (check và ghi MSSV vào các phần chức nă
 - Có mã hoá mật khẩu
 - Có kiểm tra email không trùng
 # 2. Phân hệ người dùng đã đăng nhập đấu giá
-## Lưu 1 sản phẩm vào danh sách yêu thích (Watch List) 
-- View tìm sản phẩm
-- View xem chi tiết sản phẩm
-## Ra giá 1 sản phẩm ở view xem chi tiết sản phẩm 
-- View xem chi tiết sản phẩm
-- Có kiểm tra điểm đánh giá lớn hơn 80% mới cho ra giá 
-- Có đề nghị giá hợp lệ nhỏ nhất (giá hiện tại + bước giá) 
-- Có xác nhận trước khi đặt giá 
+## Lưu 1 sản phẩm vào danh sách yêu thích (Watch List) (Chưa hoàn thành)
+- View tìm sản phẩm (Chưa hoàn thành)
+- View xem chi tiết sản phẩm (Chưa hoàn thành)
+## Ra giá 1 sản phẩm ở view xem chi tiết sản phẩm (1412624)
+- View xem chi tiết sản phẩm (1412624)
+- Có kiểm tra điểm đánh giá lớn hơn 80% mới cho ra giá (1412624)
+- Có đề nghị giá hợp lệ nhỏ nhất (giá hiện tại + bước giá) (1412624)
+- Có xác nhận trước khi đặt giá (Chưa hoàn thành)
 ## Xem lịch sử đấu giá của sản phẩm 
 ## Quản lý hồ sơ cá nhân
-- Đổi thông tin cá nhân, mật khẩu
-- Xem chi tiết đánh giá và % điểm của bản thân 
-## Xem danh sách sản phẩm yêu thích (watch list)
-- Cho phép mở nhanh 1 sản phẩm từ danh sách
-## Xem danh sách sản phẩm đang tham gia đấu giá (bidding list)
-- Cho phép mở nhanh 1 sản phẩm từ danh sách
-- Sản phẩm bản thân đang đang giữ giá có thể hiện khác với sản phẩm người khác giữ giá 
-## Xem danh sách sản phẩm bản thân đã thắng (won list) 
-- Cho phép mở nhanh 1 sản phẩm từ danh sách
-## Đánh giá người bán
-## Xin nâng cấp thành tài khoản người bán
-# 3. Phân hệ quản trị (Admin)
-- Duyệt yêu cầu xin được nâng cấp tài khoản thành tài khoản bán 
-- Quản lý sản phẩm, loại sản phẩm, nhà sản xuất 
-- Quản lý danh sách người dùng 
-- Xoá người dùng 
-- Reset mật khẩu & gửi email thông báo cho người dùng bị reset 
-- Quản lý danh mục (thêm/xoá/sửa)
+- Đổi thông tin cá nhân, mật khẩu (1412624)
+- Xem chi tiết đánh giá và % điểm của bản thân (1412624)
+## Xem danh sách sản phẩm yêu thích (watch list) (1412624)
+- Cho phép mở nhanh 1 sản phẩm từ danh sách (1412624)
+## Xem danh sách sản phẩm đang tham gia đấu giá (bidding list) (1412624)
+- Cho phép mở nhanh 1 sản phẩm từ danh sách (1412624)
+- Sản phẩm bản thân đang đang giữ giá có thể hiện khác với sản phẩm người khác giữ giá (1412624)
+## Xem danh sách sản phẩm bản thân đã thắng (won list) (1412624)
+- Cho phép mở nhanh 1 sản phẩm từ danh sách (1412624)
+## Đánh giá người bán (1412624)
+## Xin nâng cấp thành tài khoản người bán (1412624)
+# 3. Phân hệ quản trị (Admin) (1412624)
+- Duyệt yêu cầu xin được nâng cấp tài khoản thành tài khoản bán (1412624)
+- Quản lý sản phẩm, loại sản phẩm, nhà sản xuất (1412624)
+- Quản lý danh sách người dùng (1412624)
+- Xoá người dùng (1412624)
+- Reset mật khẩu & gửi email thông báo cho người dùng bị reset (Chưa hoàn thành)
+- Quản lý danh mục (thêm/xoá/sửa)(1412624)
 
 
 
