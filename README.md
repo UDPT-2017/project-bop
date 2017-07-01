@@ -67,7 +67,62 @@ Liệt kê các API nhóm đã sử dụng được ở đây
 
 ## Chức năng đã thực hiện
 Các **yêu cầu chức năng** (check và ghi MSSV vào các phần chức năng đã thực hiện)
-* [ ] Yêu cầu 1. (MSSV1)
+
+# 1. Phân hệ người dùng anonymous
+## Trang chủ
+- Top 4 sản phẩm có nhiều lượt ra giá nhất (sắp xếp theo số lượt giảm dần)
+- Top 4 sản phẩm chưa kết thúc có giá cao nhất
+- Top 4 sản phẩm gần kết thúc(sắp xếp theo thời gian kết thúc giảm dần)
+## Hệ thống Menu
+- Hiển thị danh sách loại sản phẩm
+## Tìm kiếm sản phẩm
+- Cho phép tìm kiếm theo nhiều tiêu chí: tên, loại, ... 
+- Hỗ trợ phân trang truyền thống
+- Hỗ trợ sắp xếp lại kết quả tìm kiếm (thời gian kết thúc giảm, giá tăng, ...) 
+- Những sản phẩm mới đăng trong N phút có thể hiện khác -0.25
+- Đầy đủ thông tin: tên, hình ảnh, giá hiện tại, người giữ giá (có mã hoá, vd nndkhoa sẽ được thể hiện dạng n*d*h*a), thời gian còn lại, số lượt ra giá hiện có
+## Xem chi tiết sản phẩm 
+- Hiển thị nhiều ảnh (tối thiểu là 3 ảnh) 
+- Ảnh sản phẩm thể hiện dạng slideshow, có hiệu ứng chuyển ảnh 
+- Mô tả sản phẩm có định dạng (dùng HTML) 
+- Đầy đủ thông tin: tên, giá hiện tại, giá mua ngay (nếu có), người bán & điểm đánh giá (url), người đang giữ giá cao nhất & điểm đánh giá (url), thời điểm đăng, thời điểm kết thúc 
+- Người bán thấy username & link chi tiết đánh giá CÁC NGƯỜI ĐẤU GIÁ 
+- Người đấu giá thấy được username & link chi tiết đánh giá NGƯỜI BÁN 
+## Đăng nhập 
+## Đăng ký 
+- Có sử dụng captcha
+- Có mã hoá mật khẩu
+- Có kiểm tra email không trùng
+# 2. Phân hệ người dùng đã đăng nhập đấu giá
+## Lưu 1 sản phẩm vào danh sách yêu thích (Watch List) 
+- View tìm sản phẩm
+- View xem chi tiết sản phẩm
+## Ra giá 1 sản phẩm ở view xem chi tiết sản phẩm 
+- View xem chi tiết sản phẩm
+- Có kiểm tra điểm đánh giá lớn hơn 80% mới cho ra giá 
+- Có đề nghị giá hợp lệ nhỏ nhất (giá hiện tại + bước giá) 
+- Có xác nhận trước khi đặt giá 
+## Xem lịch sử đấu giá của sản phẩm 
+## Quản lý hồ sơ cá nhân
+- Đổi thông tin cá nhân, mật khẩu
+- Xem chi tiết đánh giá và % điểm của bản thân 
+## Xem danh sách sản phẩm yêu thích (watch list)
+- Cho phép mở nhanh 1 sản phẩm từ danh sách
+## Xem danh sách sản phẩm đang tham gia đấu giá (bidding list)
+- Cho phép mở nhanh 1 sản phẩm từ danh sách
+- Sản phẩm bản thân đang đang giữ giá có thể hiện khác với sản phẩm người khác giữ giá 
+## Xem danh sách sản phẩm bản thân đã thắng (won list) 
+- Cho phép mở nhanh 1 sản phẩm từ danh sách
+## Đánh giá người bán
+## Xin nâng cấp thành tài khoản người bán
+# 3. Phân hệ quản trị (Admin)
+- Duyệt yêu cầu xin được nâng cấp tài khoản thành tài khoản bán 
+- Quản lý sản phẩm, loại sản phẩm, nhà sản xuất 
+- Quản lý danh sách người dùng 
+- Xoá người dùng 
+- Reset mật khẩu & gửi email thông báo cho người dùng bị reset 
+- Quản lý danh mục (thêm/xoá/sửa)
+
 
 
 ## Demo
