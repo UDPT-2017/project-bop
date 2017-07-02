@@ -53,7 +53,7 @@ Liệt kê các API nhóm đã sử dụng được ở đây
 * [x] Kiểm tra dữ liệu (1412624)
 * [x] Animation (1412624)
 * [x] Thao tác DOM (1412624)
-* [x] AJAX (1412624)
+* [] AJAX (1412624)
 
 ## Bảo mật
 * [x] Chứng thực (MSSV1)
@@ -63,8 +63,20 @@ Liệt kê các API nhóm đã sử dụng được ở đây
    * [x] Thể hiện lỗi khi không truy xuất được trang khi không có quyền (1412624)
 
 
-## Chức năng đã thực hiện
-Các **yêu cầu chức năng** (check và ghi MSSV vào các phần chức năng đã thực hiện)
+## Các tài khoản để test hệ thống
+### Admin
+* Email: admin@yopmail.com
+* Password: 123456
+### Người dùng chưa được bán
+* Email: lmtu@yopmail.com
+* Password: 123456
+### Người dùng có thể bán
+* Email: havinh@yopmail.com
+* Password: 123456
+### Người dùng chưa được bid do không đủ like
+* Email: httvan@gmail.com
+* Password: 123456
+
 
 # 1. Phân hệ người dùng anonymous (1412624)
 ## Trang chủ (1412624)
